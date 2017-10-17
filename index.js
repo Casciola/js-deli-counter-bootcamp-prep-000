@@ -40,4 +40,4 @@ function takeANumber(katzDeli, name) {
   }
   return katzDeliLine;
 }
->>>>>>> 818514fa869e09f99c88e43baa69664e3ef32bdc
+
