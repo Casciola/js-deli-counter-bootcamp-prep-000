@@ -30,7 +30,7 @@ var katzDeli = [];
    } else
    return('The line is currently:' + line);
  }
-=======
+
 function takeANumber(katzDeli, name) {
   var katzDeliLine = [];
   var i = 0;
