@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 var katzDeli = [];
 
@@ -30,3 +31,13 @@ var katzDeli = [];
    } else
    return('The line is currently:' + line);
  }
+=======
+function takeANumber(katzDeli, name) {
+  var katzDeliLine = [];
+  var i = 0;
+  for(i; i < katzDeli.length; i++) {
+    katzDeliLine.unshift("Welcome, " + $name + " You are number " + (i + 1) + " in line.");
+  }
+  return katzDeliLine;
+}
+>>>>>>> 818514fa869e09f99c88e43baa69664e3ef32bdc
