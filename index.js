@@ -26,11 +26,10 @@ var katzDeli = [];
    return('The line is currently:' + line);
  }
 
-function takeANumber(katzDeli, name) {
-  var katzDeliLine = [];
-  var i = 0;
-  for(i; i < katzDeli.length; i++) {
-    katzDeliLine.unshift("Welcome, " + $name + " You are number " + (i + 1) + " in line.");
-  }
-  return katzDeliLine;
+
 }
+function takeANumber(katzDeli, name) {
+  katzDeli.push(name);
+    return('Welcome, ' + name + '. You are number ' +katzDeli.length +' in line.');
+}
+
