@@ -1,4 +1,5 @@
 
+
 var katzDeli = [];
 
  function takeANumber(katzDeli, name) {
@@ -35,7 +36,7 @@ function takeANumber(katzDeli, name) {
   var katzDeliLine = [];
   var i = 0;
   for(i; i < katzDeli.length; i++) {
-    katzDeliLine.unshift(`Welcome, ${name} You are number ${i + 1} in line.`);
+    katzDeliLine.unshift("Welcome, " + $name + " You are number " + (i + 1) + " in line.");
   }
   return katzDeliLine;
 }
